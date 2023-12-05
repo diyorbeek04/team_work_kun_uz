@@ -130,6 +130,7 @@ body {
 .hero__cards {
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .hero__cards--left {
@@ -231,6 +232,7 @@ body {
 .hero__cards--bottom--top--left {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .hero__cards--bottom--top--left--h2 {
@@ -285,7 +287,7 @@ body {
 }
 
 .hero__cards--right--button {
-    width: 319px;
+    width: 219px;
     height: 60px;
     flex-shrink: 0;
     border-radius: 0px 30px 30px 0px;
@@ -296,4 +298,36 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+.main__cards{
+    margin: 0;
+}
+.main__cards--item{
+    margin-top: 30px;
+}
+.main__cards--item--card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__cards--item--card--left{
+    margin-right: 20px;
+    width: 658px;
+}
+.main__cards--item--card--left--h3{
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main__cards--item--card--left--p{
+    margin: 0;
+}
+.main__cards--item--card--right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main-img{
+    margin-bottom: 20px;
 }
