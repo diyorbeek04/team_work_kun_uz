@@ -114,7 +114,7 @@ body {
     margin: 5px;
     color: #000;
     font-family: "Montserrat";
-    font-size: 15px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -125,4 +125,175 @@ body {
     width: 3px;
     height: 15px;
     background: #585858;
+}
+
+.hero__cards {
+    display: flex;
+    align-items: center;
+}
+
+.hero__cards--left {
+    width: 890px;
+}
+
+.hero__cards--left--top--card {
+    display: flex;
+    align-items: center;
+}
+
+.hero__cards--left--top--card--item {
+    padding: 5px;
+    width: 500px;
+    height: 280px;
+    flex-shrink: 0;
+    background: #EFF2F8;
+}
+
+.hero__cards--left--top--card--item--top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hero__cards--left--top--card--item--top--small {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 6px;
+}
+
+.hero__cards--left--top--card--item--top--h1 {
+    margin-top: 10px;
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 29px;
+}
+
+.hero__cards--left--top--card--item--top--p {
+    margin-top: 20px;
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.hero__cards--left--cards {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.hero__cards--left--cards--item {
+    width: 250px;
+    height: 113px;
+    margin-left: 20px;
+}
+
+.hero__cards--left--cards--item--strong {
+    margin: 0;
+}
+
+.hero__cards--left--cards--item--hr {
+    margin-top: 28.3px;
+}
+
+.hero__cards--left--cards--card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.hero__cards--bottom {
+    margin-top: 20px;
+    width: 900px;
+}
+
+.hero__cards--bottom--top {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__cards--bottom--top--left {
+    display: flex;
+    align-items: center;
+}
+
+.hero__cards--bottom--top--left--h2 {
+    margin-left: 6px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero__cards--bottom--top--left--span {
+    color: #17206A;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.hero__cards--bottom--card {
+    display: flex;
+    align-items: center;
+}
+
+.hero__cards--bottom--card--img--1 {
+    margin-right: 15px;
+}
+
+.hero__cards--right {
+    width: 230px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.hero__cards--right--p {
+    margin-top: 10px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    /* 150% */
+    margin-bottom: 10px;
+}
+
+.hero__cards--right--hr {
+    margin-bottom: 10px;
+}
+
+.hero__cards--right--button {
+    width: 319px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 0px 30px 30px 0px;
+    background: #F0F0F0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
