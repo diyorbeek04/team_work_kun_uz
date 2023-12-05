@@ -1,58 +1,61 @@
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html, body {
-  box-sizing: inherit;
-  height: 100%;
+html,
+body {
+    box-sizing: inherit;
+    height: 100%;
 }
 
 body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.5;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
 }
 
-img {
-  display: block;
-  width: 100%;
-}
-.container{
+.container {
     width: 100%;
     max-width: 1160px;
     margin: 0 auto;
     padding: 0 10px;
 }
+
 @font-face {
     font-family: 'montserrat select bold';
     src: url(../fonts/static/Montserrat-Bold.ttf);
 }
+
 /* *-*-*-* HEADER *-*-*-* */
-#header{
+#header {
     width: 100%;
     padding: 10px;
 }
-#header .navbar{
+
+#header .navbar {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#header .navbar img{
+
+#header .navbar img {
     width: 75px;
     height: 30px;
 }
-#header .navbar ul{
+
+#header .navbar ul {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
     list-style: none;
 }
-#header .navbar ul li a{
+
+#header .navbar ul li a {
     color: #000;
     font-family: 'montserrat select bold';
     font-size: 14px;
@@ -61,7 +64,8 @@ img {
     line-height: normal;
     text-decoration: none;
 }
-#header .navbar form select{
+
+#header .navbar form select {
     width: 110px;
     height: 27px;
     flex-shrink: 0;
@@ -69,7 +73,8 @@ img {
     padding: 5px;
     outline: none;
 }
-#header .navbar .header__navbar--icon{
+
+#header .navbar .header__navbar--icon {
     width: 27px;
     height: 27px;
     background-color: #E6E6E6;
@@ -78,6 +83,46 @@ img {
     align-items: center;
     justify-content: center;
 }
-#header .navbar .header__navbar--icon i{
+
+#header .navbar .header__navbar--icon i {
     font-size: 15px;
+}
+
+.header__bottom {
+    background-color: #F0F0F0;
+    margin-top: 22px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.header__bottom--img {
+    margin: 0;
+    padding: 0;
+}
+
+.header__bottom--right {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__bottom--span {
+    margin: 5px;
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.header__bottom--hr {
+    width: 3px;
+    height: 15px;
+    background: #585858;
 }
