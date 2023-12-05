@@ -331,3 +331,19 @@ body {
 .main-img{
     margin-bottom: 20px;
 }
+.futr{
+    background: #F0F0F0;
+}
+.futr-container{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.futr__cards{
+    margin-top: 30px;
+}
+.futr__cards--item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
