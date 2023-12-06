@@ -506,6 +506,7 @@ body {
 }
 .yangilik{
     width: 100%;
+}
 .main__cards{
     margin: 0;
 }
@@ -705,6 +706,7 @@ body {
 .footer__body .footer__body--icon i{
     font-size: 16px;
     color: #F0F0F0;
+}
 .main__cards--item--card--left{
     margin-right: 20px;
     width: 658px;
