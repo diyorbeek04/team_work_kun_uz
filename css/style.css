@@ -178,6 +178,9 @@ body {
 }
 .maqola .maqola__header{
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .header__bottom {
     background-color: #F0F0F0;
@@ -202,6 +205,10 @@ body {
 }
 .maqola .maqola__body{
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .header__bottom--span {
     margin: 5px;
@@ -366,6 +373,9 @@ body {
 .biznes .biznes__header{
     width: 100%;
     margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hero__cards--left--cards--item {
@@ -492,8 +502,13 @@ body {
     padding: 15px 30px;
 }
 .biznes .biznes__body .biznes__body--blog{
+    width: 22%;
     background-color: #fff;
     padding-bottom: 30px;
+}
+.biznes .biznes__body .biznes__body--blog img{
+    width: 100%;
+    
 }
 .biznes .biznes__body .biznes__body--blog p{
     padding: 5px;
@@ -506,6 +521,9 @@ body {
 }
 .yangilik{
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .main__cards{
     margin: 0;
